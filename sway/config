@@ -168,3 +168,4 @@ bindsym $mod+o exec $lock
 set $print rofi -run-command Screenshot
 bindsym Print exec $print
 
+output HDMI-A-2 mode 1920x1080@60Hz
