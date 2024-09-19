@@ -101,8 +101,8 @@ gaps outer 10
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
-bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 25-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +25
 bindsym XF86Search exec $menu
 set $firefox firefox
 set $chrome google-chrome-stable
@@ -116,5 +116,5 @@ set $print rofi -run-command Screenshot
 bindsym Print exec $print
 # Tv output
 #output HDMI-A-2 mode 1920x1080@60Hz
-output HDMI-A-2 mode 1920x1080@120Hz
-#output HDMI-A-2 mode 2560x1440@59.951Hz 
+#output HDMI-A-2 mode 1920x1080@120Hz
+output HDMI-A-2 mode 2560x1440@59.951Hz 
