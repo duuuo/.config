@@ -1,17 +1,6 @@
-Code/
-dconf/
-fish/
-gh/
-google-chrome/
-gtk-3.0/
-konsole.kmessagebox
-konsolerc
-konsolesshconfig
-lf/
-libre office/
-light/
-neovin/
-nvim/
-pulse/
-systemd/
-yay/
+*
+*/
+!resources/
+!sway/
+!waybar/
+!README.md
