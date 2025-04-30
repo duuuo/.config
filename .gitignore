@@ -3,5 +3,6 @@
 !.gitignore
 !resources/
 !sway/
+!rofi/
 !waybar/
 !README.md
